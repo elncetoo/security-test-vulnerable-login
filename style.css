@@ -1,0 +1,76 @@
+.container{
+	text-align: center;
+	padding: 1%;
+
+}
+
+footer{
+	text-align: center;
+	background-color: #ECECEC;
+	position: fixed;
+	bottom: 0;
+	width: 88%;
+}
+
+a{
+	text-decoration: none;
+	color: #446CB3;
+}
+
+a:hover{
+	color: #34495E;
+}
+
+h1,h2,h3,p{
+	font-family: Calibri light, sans-serif;
+}
+
+h1{
+	color: #34495E;
+	font-weight: 700;
+}
+
+a,p{
+	font-weight: 400;
+}
+
+.form{
+	justify-content: center;
+	padding: 1%;
+
+}
+
+input[type=text], select {
+    width: 220px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 220px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 220px;
+    background-color: #34495E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #446CB3;
+}
